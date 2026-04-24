@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <h1>Signup Form</h1>
+        <form action="http://www.example.com/subscribe.php" method="get">
+        
+        <p>Username: <input type="text" name="username" placeholder="Enter your name" size="15" 
+        maxlength="15" required />
+        </p>
+
+        <label>Email: </label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+    
+        <p>Passowrd: <input type="text" name="passowrd" placeholder="Enter your passoword"  
+        size="15" maxlength="30" required />
+        </p>
+
+        <label>Age: </label>
+        <input type="number" name="age" min="1" max="30" required />
+
+        <label>Date of Birth: </label>
+        <input type="date" name="Date of Birth" required />
+
+        <p>Your Gender:
+        <br />
+        <input type="radio" name="gender" value="Male" checked="checked" /> Male 
+        <input type="radio" name="gender" value="Female" /> Female
+        </p>
+
+         <label>Hobbies: <br /></label>
+        <input type="checkbox" name="hobby" value="reading" > Reading
+        <input type="checkbox" name="hobby" value="sports" > Sports
+        <input type="checkbox" name="hobby" value="gaming" > Gaming
+        
+        <p> Country: 
+            <br />
+        <select name="country">
+            <option value="">Select</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="usa">USA</option>
+        </select>
+        </p>
+
+        <p>Address: 
+            <br />
+        <textarea name="address" rows="3"></textarea>
+        <p></p>
+
+
+        <p>Upload Profile Picture:
+        <input type="file" name="profile">
+        </p>
+
+        <button type="submit">Sign Up</button>
+
+        <button onclick="history.back()" >Go Back</button>
+
+    </form>
+    </body>
+</html>
