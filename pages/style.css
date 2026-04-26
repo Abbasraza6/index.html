@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: darkcyan;
+    text-align: center;
+}
+
+table {
+  margin: auto;
+  
+}
+
+.hydrogen {
+    background-color: lightgreen;
+    color: white;
+}
+
+.alkali {
+  background-color: red;
+  color: white;
+}
+
+.noblegas {
+    background-color: cyan;
+    color: white;
+}
+
+.alkalineearthmetal {
+    background-color: orange;
+    color: white;
+}
+
+.polyatomicmetal {
+    background-color: aquamarine;
+    color: white;
+}
+
+.diatomicnonmetal {
+    background-color: green;
+    color: white;
+}
+
+.transitionmetal {
+    background-color: blue;
+    color: white;
+}
+
+.posttransitionmetal {
+    background-color: darkcyan;
+    color : white
+}
+
+.lanthanoids {
+    background-color: rgb(105, 0, 105);
+    color: white
+}
+
+.unknownchemicalproperties {
+    background-color: gray;
+    color: white;
+}
+
+.actinide {
+    background-color: rgb(143, 63, 103);
+    color: white;
+}
+
+.metalloid {
+    background-color: brown;
+    color: white;
+}
+
+.back-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.gap {
+  height: 20px;
+}
+
+.gap td {
+  border: none;
+  padding: 0;
+}
